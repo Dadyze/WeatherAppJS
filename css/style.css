@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(57, 123, 156);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+small{
+    font-size: 20px;
+}
+.container{
+    border:5px solid darkblue;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 10px;
+    background-image: url("slika.jpg");
+    width:500px;
+   
+    
+}
+
+.container p,h1,h2,h3{
+    margin:0;
+}
+
+.info{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    padding:40px;
+}
+#temperatura{
+    font-size:100px;
+    text-align: center;
+}
+
+
+
+
+
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(112, 189, 233, 0.507);
+    color: black;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.drugired,.prvired{
+    display:flex;
+    justify-content: space-around;
+}
+
+.prvired >div,.drugired >div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.prvired >div >img,.drugired >div >img{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+}
+
+
+.temp{
+    margin: auto;
+}
+.realf{
+    display: flex;
+}
+.realf p{
+    font-size: 32px;
+    margin-right: 10px;
+}
